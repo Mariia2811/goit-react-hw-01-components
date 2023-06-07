@@ -1,0 +1,19 @@
+.transaction-history {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-history th,
+.transaction-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.transaction-history th {
+    font-weight: bold;
+}
+
+.transaction-history tr:last-child td {
+    border-bottom: none;
+}
